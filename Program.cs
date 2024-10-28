@@ -1,7 +1,13 @@
+using DataAccess.Concrete;
+using Microsoft.EntityFrameworkCore;
+using System;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<ToDoListContext>(options =>
+    options.UseSqlServer("Database path"));
 
 var app = builder.Build();
 

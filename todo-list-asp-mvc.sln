@@ -5,7 +5,11 @@ VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todo-list-asp-mvc", "todo-list-asp-mvc.csproj", "{7BC95E8E-FB72-4198-B0AF-908A4C733689}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "..\Entity\Entity.csproj", "{B09A583E-1ADB-4290-8164-7FB09CBC42AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\Entity\Domain.csproj", "{B09A583E-1ADB-4290-8164-7FB09CBC42AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "..\DataAccess\DataAccess.csproj", "{07993B8A-BA03-46B7-BEEF-0BF79BD41D96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "..\Business\Business.csproj", "{770DCD2B-E5A2-4270-9299-1F76D04C442E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{B09A583E-1ADB-4290-8164-7FB09CBC42AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B09A583E-1ADB-4290-8164-7FB09CBC42AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B09A583E-1ADB-4290-8164-7FB09CBC42AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07993B8A-BA03-46B7-BEEF-0BF79BD41D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07993B8A-BA03-46B7-BEEF-0BF79BD41D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07993B8A-BA03-46B7-BEEF-0BF79BD41D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07993B8A-BA03-46B7-BEEF-0BF79BD41D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{770DCD2B-E5A2-4270-9299-1F76D04C442E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{770DCD2B-E5A2-4270-9299-1F76D04C442E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{770DCD2B-E5A2-4270-9299-1F76D04C442E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{770DCD2B-E5A2-4270-9299-1F76D04C442E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
